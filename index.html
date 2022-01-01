@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar background">
             <a href="/index.html" class="nav-branding">Chris Leavengood</a>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -23,9 +23,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/cleave13" target="_blank">github</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -38,32 +35,68 @@
     <main>
         <section class="hero-image">
             <div class="hero-content">
-                <h1 class="hero-title", "hero-item">Chris Leavengood</h1>
-                <h2 class="hero-subtitle", "hero-item">I build web applications that deliver business results.</h2>
-                <button type="button" class="hero-button", "hero-item" name="View Portfolio">
+                <h1 class="hero-title" , "hero-item">Chris Leavengood</h1>
+                <h2 class="hero-subtitle" , "hero-item">I build web applications that drive business results.</h2>
+                <button type="button" class="hero-button" , "hero-item" name="View Portfolio"
+                    onclick="window.location.href='#portfolio'">
                     View portfolio
                 </button>
             </div>
         </section>
-        <article>
-            <div class="article-bg">
+        <article class="background">
+            <div class="content">
                 <h2 class="article-header" id="portfolio">Portfolio</h2>
+                <div class="card" "full-width-card">
+                    <header>Real Estate Toolkit</header>
+                    <p>Deal analysis and property management application</p>
+                    <picture>
+                        <source srcset="./assets/images/house-full-compressed.jpeg" media="(min-width:481px)">
+                        <img src="
+                        ./assets/images/house-mobile-compressed.jpeg" alt="Stock photo of a house" />
+                    </picture>
+                </div>
+                <div class="card" "full-width-card">
+                    <header>Colorado Pediatric Aquatic Therapy</header>
+                    <p>Childhood mobility through aquatic therapy</p>
+                    <picture>
+                        <source srcset="./assets/images/house-full-compressed.jpeg" media="(min-width:481px)">
+                        <img src="
+                        ./assets/images/house-mobile-compressed.jpeg" alt="Stock photo of a house" />
+                    </picture>
+                </div>
             </div>
         </article>
-        <article>
-            <div class="article-bg">
+        <article class="background">
+            <div class="content">
                 <h2 class="article-header" id="about">About</h2>
-            </div>
-        </article>
-        <article>
-            <div class="article-bg">
-                <h2 class="article-header" id="contact">Contact</h2>
+                <picture>
+                    <source srcset="./assets/images/profile-full.png" media="(min-width:481px)">
+                    <img id="profile-image" src="./assets/images/profile-mobile.png" alt="Stock photo of a house" align="right" />
+                </picture>
+                <p>
+                    My name is Chris Leavengood and I love building applications to help businesses succeed.
+                </p>
+                <p>
+                    I started my career at some of the most reknowned hospitality organizations in the world where I learned to deliver exceptional experiences. Today, I pair my high-touch background with my strong technical skills to deliver incredible results for all of my clients.
+                </p>
+                <p>
+                    Over the past six years, I have had the opportunity to work with leading brands across the a wide range of industries including real-estate, hospitality, technology, healthcare, and event services.
+                </p>
+                <p>
+                    I take a human approach to technology implementations and would love to work with you on your next project!
+                </p>
             </div>
         </article>
     </main>
-    <footer>
-
+    <footer class="background">
+        <div class="content">
+            <h2 class="article-header" id="contact">Contact</h2>
+            <h2>Chris Leavengood</h2>
+            <p>720.234.3597</p>
+            <a href="mailto: chrisleavengood@gmail.com">chrisleavengood@gmail.com</a>
+        </div>
     </footer>
     <script src="./assets/javascript/script.js"></script>
 </body>
+
 </html>
