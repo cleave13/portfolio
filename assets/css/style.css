@@ -3,7 +3,8 @@
 --background-color: rgb(140, 179, 86);
 --nav-dropdown-color: rgb(152, 193, 91);
 --border-color: rgb(150, 184, 102);
---text-color: white;
+--color-light: white;
+--color-dark: #262626;
 --cta-color: rgb(247, 177, 0);
 }
 
@@ -28,11 +29,11 @@ header {
     border: var(--border-color) solid 2px;
     position: -webkit-sticky;
     position: sticky;
-    z-index: 1;
+    z-index: 2;
     top: 0;
 }
 a {
-    color: var(--text-color);
+    color: var(--color-light);
     text-decoration: none;
 }
 a:hover {
@@ -43,30 +44,48 @@ button {
     height: 40px;
     width: auto;
     background-color: var(--cta-color);
-    color: rgb(53, 53, 53);
+    color: var(--color-dark);
     padding: 10px;
     text-align: center;
     font-size: 14px;
-}
-article header {
-    border: none;
+    font-weight: bold;
 }
 button:hover {
-    box-shadow: 1px 1px 1px 1px rgba(72, 72, 72, 0.365);
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.365);
+}
+section {
+    border-bottom: 1px solid var(--border-color);
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 footer {
     line-height: 1.3;
 }
-.background {
+footer a {
+    color: var(--color-dark);
+}
+.green-background {
     width: 100%;
+    color: var(--color-light);
     background-color: var(--background-color);
+    border-bottom: solid var(--border-color) 3px;
+    padding-bottom: 5%;
+}
+.white-background {
+    width: 100%;
+    color: var(--color-dark);
+    background-color: var(--color-light);
     border-bottom: solid var(--border-color) 3px;
     padding-bottom: 5%;
 }
 .content {
     text-align: left;
-    color: var(--text-color);
+    height: auto;
     margin: 0 5%;
+    scroll-margin-top: 60px;
 }
 .navbar {
     min-height: 60px;
@@ -116,7 +135,7 @@ footer {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--text-color);
+    background-color: var(--color-light);
 }
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
@@ -161,35 +180,56 @@ footer {
 .article-header {
     font-size: 1.25em;
     text-align: left;
-    padding: 24px 0 24px 0;
-    color: var(--text-color);
-    scroll-margin-top: 60px;
+    padding: 1.25em 0 1em 0;
 }
 .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     width: 90%;
 }
 .card > header {
+    color: var(--color-light);
     text-align:center;
     font-size: 1.3em;
     position: relative;
-    z-index: 0;
+    top: 2em;
+    padding: 2%;
+    width: 60%;
+    z-index: 1;
+    background-color: rgb(126, 150, 92);
+    border-radius: 10px;
+    border: 1px solid var(--color-light);
 }
 .card > p {
-    text-align: center;
     font-size: 1em;
 }
 .card img {
     height: auto;
     width: 100%;
     border-radius: 10px;
+    border: 1px solid var(--border-color);
     display: block;
+    margin: 3% 0;
 }
-#about ~ p {
-    margin-bottom: 1.25em;
+.card button {
+    position: relative;
+    bottom: 2em;
+    box-shadow: 1px 1px 1px 1px rgba(72, 72, 72, 0.365);
+}
+.portfolio-cards {
+    margin-top: -1.5em;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#about > p {
+    margin: 0 0 1.25em 0;
     line-height: 1.2;
 }
-#about ~ p:last-of-type {
+#about > p:last-of-type {
     margin-bottom: 0;
 }
 #profile-image {
@@ -197,7 +237,7 @@ footer {
     margin: 0 0 20px 20px;
     height: 150px;
     width: 150px;
-    box-shadow: 25px 25px 50px 0 var(--background-color) inset, -25px -25px 50px 0 var(--background-color) inset; 
+    border: 1px solid var(--border-color); 
 }
 /* || MEDIA QUERIES */
 /* CSS for tablet-sized screens and larger */
