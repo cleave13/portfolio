@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Sets meta-data information and links stylesheets -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
+<!-- Body starts here -->
 <body>
     <header>
+        <!-- Start nav menu items and hamburger bars  -->
         <nav class="navbar green-background">
             <a href="/index.html" class="nav-branding">Chris Leavengood</a>
             <ul class="nav-menu">
@@ -34,6 +35,7 @@
         </nav>
     </header>
     <main>
+        <!-- Start of hero image and content -->
         <section class="hero-image">
             <div class="hero-content">
                 <h1 class="hero-title" , "hero-item">Chris Leavengood</h1>
@@ -44,10 +46,12 @@
                 </button>
             </div>
         </section>
+        <!-- Start of first content block -->
         <article class="white-background">
             <div class="content" id="portfolio">
                 <h2 class="article-header">Portfolio</h2>
                 <div class="portfolio-cards">
+                    <!-- First portfolio card -->
                     <div class="card full-width-card">
                         <header>Real Estate Investing Toolkit</header>
                         <picture>
@@ -57,6 +61,7 @@
                         </picture>
                         <button>View Project</button>
                     </div>
+                    <!-- Second portfolio card -->
                     <div class="card half-width-card">
                         <header>Colorado Pediatric Aquatic Therapy</header>
                         <picture>
@@ -66,6 +71,7 @@
                         </picture>
                         <button>View Project</button>
                     </div>
+                    <!-- Third portfolio card -->
                     <div class="card half-width-card">
                         <header>Colorado Pediatric Aquatic Therapy</header>
                         <picture>
@@ -75,6 +81,7 @@
                         </picture>
                         <button>View Project</button>
                     </div>
+                    <!-- Fourth portfolio card -->
                     <div class="card half-width-card">
                         <header>Colorado Pediatric Aquatic Therapy</header>
                         <picture>
@@ -84,6 +91,7 @@
                         </picture>
                         <button>View Project</button>
                     </div>
+                    <!-- Fifth portfolio card -->
                     <div class="card half-width-card">
                         <header>Colorado Pediatric Aquatic Therapy</header>
                         <picture>
@@ -96,15 +104,18 @@
                 </div>
             </div>
         </article>
+        <!-- Begin "about" section -->
         <article class="green-background">
             <div class="content" id="about">
                 <h2 class="article-header">About</h2>
                 <div class="about-content">
+                    <!-- Adds multiple images to optimize loading times by screen size -->
                     <picture>
                         <source srcset="./assets/images/profile-full.png" media="(min-width:601px)">
                         <img id="profile-image" src="./assets/images/profile-mobile.png" alt="Stock photo of a house"
                             align="right" />
                     </picture>
+                    <!-- Start bio content -->
                     <p>
                         My name is Chris Leavengood and I love building applications to help businesses succeed.
                     </p>
@@ -129,10 +140,12 @@
             </div>
         </article>
     </main>
+    <!-- Begin footer -->
     <footer class="white-background">
         <div class="content" id="contact">
             <h2 class="article-header">Contact</h2>
             <div class="footer-content">
+                <!-- Footer links and information -->
                 <p>720.234.3597</p>
                 <a href="mailto: chrisleavengood@gmail.com">chrisleavengood@gmail.com</a>
                 <a href="https://www.github.com/cleave13" target="_blank">Github</a>
@@ -140,6 +153,7 @@
             </div>
         </div>
     </footer>
+    <!-- Link to javascript file - added to end of page to avoid DOM errors -->
     <script src="./assets/javascript/script.js"></script>
 </body>
 
