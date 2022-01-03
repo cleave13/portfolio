@@ -43,7 +43,7 @@ The following stock images helped fill out my portfolio page:
 ### Font Squirrel
 I got the "Assistant" font from [Font Squirrel - Assistant](https://www.fontsquirrel.com/fonts/assistant "https://www.fontsquirrel.com/fonts/assistant")
 
-### Canva [Canva.com](canva.com "canva.com")
+### [Canva.com](canva.com "canva.com")
 I used canva to create the favicon logo that gets displayed on the browser tab.
 
 ## License
