@@ -294,7 +294,7 @@ footer a {
 }
 /* || MEDIA QUERIES */
 /* CSS for tablet-sized screens and larger */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 769px) {
     /* Loads a larger hero image for large screens to increase image quality */
     .hero-image {
         background-image: linear-gradient(rgba(135, 152, 76, 0.05), rgba(0, 0, 0, 0)), url("../images/hero-compressed-full.jpeg");
@@ -367,19 +367,19 @@ footer a {
         display: none;
         cursor: pointer;
     }
-    /* Makes the content sections flexboxes that wrap content */
-    .content {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    /* Positions article headers on the left side of the page */
-    .article-header {
-        width: 21%;
-        font-weight: bold;
-        font-size: 1.5em;
-        margin-top: 5%;
-        justify-content: center;
-        text-align: left;
+/* Makes the content sections flexboxes that wrap content */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Positions article headers on the left side of the page */
+.article-header {
+    width: 21%;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: left;
     }
     /* Adds a right border to the white background sections */
     .white-background .article-header {
@@ -402,7 +402,7 @@ footer a {
     /* Overlays the card headers on top of the image */
     .card > header {
         position: relative;
-        top: 3em;
+        top: 2.5em;
     }
     /* Sets the width of the card to 100% of the container */
     .full-width-card {

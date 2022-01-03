@@ -37,8 +37,13 @@ The following stock images helped fill out my portfolio page:
 
 - [Nick Wessaert Credit Page](https://unsplash.com/@fusebrussels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Bottom view of glass building photo - Ralph Kelly")
 
-- [Ralph Kelly Credit Page](https://unsplash.com/@ralphkelly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "2 Storey House with Sky - Ralph Kelly")
-  
+- [Drew Gilliam Credit Page](https://unsplash.com/@drewgilliam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Kid swimming - Drew Gilliam")
+
+- [Scott Graham Credit Page](https://unsplash.com/@homajob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Resume writing - Scott Graham")
+
+- [Element5 Digital Credit Page](https://unsplash.com/@element5digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Children's Books - Element5 Digital")
+
+- [eggbank Credit Page](https://unsplash.com/@eggbank?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Lemons - eggbank")
 
 ### Font Squirrel
 I got the "Assistant" font from [Font Squirrel - Assistant](https://www.fontsquirrel.com/fonts/assistant "https://www.fontsquirrel.com/fonts/assistant")
