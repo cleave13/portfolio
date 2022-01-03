@@ -23,7 +23,7 @@ This simple page has three primary features:
 There were no collaborators on this project, but there are several tutorials and resources that helped me develop this page:
 
 ### YouTube Responsive Menu Tutorial
-The [codefoxx YouTube Channel](https://www.youtube.com/channel/UCvi0rWTSkJkrunfhXH0tYuA "codefoxx YouTube Channel")codefoxx youtube channel has some great reasources to help developers. I used the following tutorial to build the mobile responsive hamburger menu.
+The [codefoxx YouTube Channel](https://www.youtube.com/channel/UCvi0rWTSkJkrunfhXH0tYuA "codefoxx YouTube Channel") channel has some great reasources to help developers. I used the following tutorial to build the mobile responsive hamburger menu.
 - [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?app=desktop&v=flItyHiDm7E "JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript")
 
 ### Joe Natoli's User Experience Design Resources
@@ -35,7 +35,7 @@ Joe Natoli is a consultant with 20+ years experience doing UI and UX design. His
 ### Free Stock Images - [Unsplash.com](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Unsplash.com")
 The following stock images helped fill out my portfolio page:
 
-- [Nick Wessaert Credit Page](https://unsplash.com/@ralphkelly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Bottom view of glass building photo - Ralph Kelly")
+- [Nick Wessaert Credit Page](https://unsplash.com/@fusebrussels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Bottom view of glass building photo - Ralph Kelly")
 
 - [Ralph Kelly Credit Page](https://unsplash.com/@ralphkelly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "2 Storey House with Sky - Ralph Kelly")
   
