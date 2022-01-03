@@ -35,7 +35,9 @@ Joe Natoli is a consultant with 20+ years experience doing UI and UX design. His
 ### Free Stock Images - [Unsplash.com](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Unsplash.com")
 The following stock images helped fill out my portfolio page:
 
-- [Nick Wessaert Credit Page](https://unsplash.com/@fusebrussels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Bottom view of glass building photo - Ralph Kelly")
+- [Nick Wessaert Credit Page](https://unsplash.com/@fusebrussels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Bottom view of glass building photo - Nick Wessaert")
+
+- [Ralph Kelly Credit Page](https://unsplash.com/@ralphkelly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "2 Storey House with Sky - Ralph Kelly")
 
 - [Drew Gilliam Credit Page](https://unsplash.com/@drewgilliam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText "Kid swimming - Drew Gilliam")
 
