@@ -18,6 +18,10 @@ This simple page has three primary features:
 2. Internal Links - When you click on the "portfolio", "about", or "contact" links, the browser will automatically navigate to that page.
 3. External links - The Github link is the only external link in this project. When clicked, it opens my generic Github profile page in the user's browser.
 
+![Mobile Menu](./assets/images/mobile-menu.png)
+
+![Full Screen Menu](./assets/images/full-screen-menu.png)
+
 ## Credits
 
 There were no collaborators on this project, but there are several tutorials and resources that helped me develop this page:
