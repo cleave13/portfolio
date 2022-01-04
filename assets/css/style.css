@@ -367,13 +367,13 @@ footer a {
         display: none;
         cursor: pointer;
     }
-/* Makes the content sections flexboxes that wrap content */
-.content {
-    display: flex;
-    flex-wrap: wrap;
-}
-/* Positions article headers on the left side of the page */
-.article-header {
+    /* Makes the content sections flexboxes that wrap content */
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Positions article headers on the left side of the page */
+    .article-header {
     width: 21%;
     font-weight: bold;
     font-size: 1.5em;
