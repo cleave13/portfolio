@@ -41,6 +41,7 @@ header {
 a {
     color: var(--color-light);
     text-decoration: none;
+    cursor: pointer;
 }
 /* Adds underlining to links when they're hovered over */
 a:hover {
@@ -57,6 +58,7 @@ button, .src-link {
     text-align: center;
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
 /* Adds a shadow to the button on hover */
 button:hover {
